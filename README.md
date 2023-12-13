@@ -2,7 +2,7 @@
 
 This Python script is designed to download and combine podcast episodes from a specified RSS feed into a single MP3 file. 
 
-[![Podcast Episode Combiner](screenshot.png)]
+![Podcast Episode Combiner](screenshot.png)
 
 ## Prerequisites
 
