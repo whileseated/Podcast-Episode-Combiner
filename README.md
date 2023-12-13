@@ -1,12 +1,14 @@
 # Podcast Episode Combiner
 
-This Python script is designed to download and combine podcast episodes from a specified RSS feed into a single MP3 file. It's suitable for users who are familiar with running Python scripts.
+This Python script is designed to download and combine podcast episodes from a specified RSS feed into a single MP3 file. 
+
+[![Podcast Episode Combiner](screenshot.png)]
 
 ## Prerequisites
 
 - Python installed on your system.
 - `ffmpeg` must be installed and accessible in your system's PATH. This is crucial for the script to combine audio files.
-- `curl` should be installed on your system as it is used for downloading episodes.
+- `curl` should be installed on your system as it's used for downloading episodes.
 
 ## Quick Start
 
@@ -20,12 +22,12 @@ This Python script is designed to download and combine podcast episodes from a s
 
 ```python3 episode_combiner.py```
 
-5. **Follow On-screen Prompts**: The script will ask for the RSS URL and other inputs as needed.
+5. **Follow On-screen Prompts**: You'll be asked for the RSS url, and which episodes you'd like to combine; all, the most recent five, or the most recent three.
 
-6. **Output**: The final combined MP3 file will be saved in the same directory as the script. Some podcast apps, like Pocketcast, allow you the ability to upload the mp3 as a new file, and the app will remember your progress through the file, just like an audiobook (or podcast).
+6. **Output**: The final combined MP3 file will be saved in the same directory as the script. Some podcast apps, like [Pocket Casts](https://pocketcasts.com), grant the ability to upload an mp3 as a new file, and the app will remember your progress through the file, just like an audiobook (or podcast).
 
 ## Notes
 
-Why? In creating [DefunktCast](https://defunkt-cast.herokuapp.com/), I wondered why there are so few workable solutions for listening to older broadcasts. Podcasts are great while they're being published, but they require a lot of manual manipulation once the show is complete. This script is one solution for surfacing older (or dead!) podcasts.
+*Why?* In creating [DefunktCast](https://defunkt-cast.herokuapp.com/), I wondered why there are so few workable solutions for listening to older podcasts. Podcasts are great while they're being published and the feed's getting refreshed, but they require a lot of manual manipulation once a show is complete. 
 
-This script is intended for combining podcast episodes. It may not work as expected with non-podcast RSS feeds, with podcasts exclusive to Spotify, or with files that are not in MP3 format.
+This script is a simple solution for surfacing older (or dead!) podcasts. It may not work as expected with non-podcast RSS feeds, with podcasts exclusive to Spotify, or with files that are not in MP3 format.
