@@ -14,7 +14,7 @@ This Python script is designed to download and combine podcast episodes from a s
 
 1. **Clone the Repository or Download the Script**: Get the script onto your local machine.
 2. **Install Required Python Packages**: Ensure `requests` is installed. You can install it using pip: ```pip install requests```
-3. **Find Your Podcast's RSS Feed**: Visit [listennotes.com](https://www.listennotes.com), search for your podcast and copy the url of the RSS feed.
+3. **Find Your Podcast's RSS Feed**: Visit [Listen Notes](https://www.listennotes.com), search for your podcast and copy the url of the RSS feed.
 
 4. **Run the Script**: ```python3 episode_combiner.py```
 
