@@ -13,18 +13,14 @@ This Python script is designed to download and combine podcast episodes from a s
 ## Quick Start
 
 1. **Clone the Repository or Download the Script**: Get the script onto your local machine.
-2. **Install Required Python Packages**: Ensure `requests` is installed. You can install it using `pip`:
-
-   ```pip install requests```
+2. **Install Required Python Packages**: Ensure `requests` is installed. You can install it using pip: ```pip install requests```
 3. **Find Your Podcast's RSS Feed**: Visit [listennotes.com](https://www.listennotes.com), search for your podcast and copy the url of the RSS feed.
 
-4. **Run the Script**: 
-
-```python3 episode_combiner.py```
+4. **Run the Script**: ```python3 episode_combiner.py```
 
 5. **Follow On-screen Prompts**: You'll be asked for the RSS url, and which episodes you'd like to combine; all, the most recent five, or the most recent three.
 
-6. **Output**: The final combined MP3 file will be saved in the same directory as the script. Some podcast apps, like [Pocket Casts](https://pocketcasts.com), grant the ability to upload an mp3 as a new file, and the app will remember your progress through the file, just like an audiobook (or podcast).
+6. **Output**: The final combined mp3 will be saved in the same directory as the script. Some podcast apps, like [Pocket Casts](https://pocketcasts.com), grant the ability to [upload an mp3 as a new file](https://support.pocketcasts.com/knowledge-base/adding-files-ios/), and the app will remember your progress through the file, just like an audiobook (or podcast).
 
 ## Notes
 
