@@ -14,16 +14,18 @@ This Python script is designed to download and combine podcast episodes from a s
 2. **Install Required Python Packages**: Ensure `requests` is installed. You can install it using `pip`:
 
    ```pip install requests```
+3. **Find Your Podcast's RSS Feed**: Visit [listennotes.com(https://www.listennotes.com)], search for your podcast and copy the url of the RSS feed.
 
-Run the Script: Use Python to run the script:
+4. **Run the Script**: 
 
-Replace script_name.py with the actual name of the script file.
+```python3 episode_combiner.py```
 
-Follow On-screen Prompts: The script will ask for the RSS URL and other inputs as needed.
+5. **Follow On-screen Prompts**: The script will ask for the RSS URL and other inputs as needed.
 
-Output: The final combined MP3 file will be saved in the same directory as the script.
+6. **Output**: The final combined MP3 file will be saved in the same directory as the script. Some podcast apps, like Pocketcast, allow you the ability to upload the mp3 as a new file, and the app will remember your progress through the file, just like an audiobook (or podcast).
 
 ## Notes
 
-This script is intended for combining podcast episodes. It may not work as expected with non-podcast RSS feeds or with files that are not in MP3 format.
-If you have any questions or encounter issues, please feel free to open an issue in the repository or contact the maintainer.
+Why? In creating [DefunktCast(https://defunkt-cast.herokuapp.com/)], I wondered why there are so few workable solutions for listening to older broadcasts. Podcasts are great while they're being published, but they require a lot of manual manipulation once the show is complete. This script is one solution for surfacing older (or dead!) podcasts.
+
+This script is intended for combining podcast episodes. It may not work as expected with non-podcast RSS feeds, with podcasts exclusive to Spotify, or with files that are not in MP3 format.
